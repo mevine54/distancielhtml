@@ -1,0 +1,26 @@
+body {
+    background-color: #0f4d8f;
+}
+
+h2 {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid white;
+    border-radius: 30px;
+    width: 50%;
+    height: 400px;
+}
+
+img {
+    padding: 80px;
+    margin-left: 50px;
+}

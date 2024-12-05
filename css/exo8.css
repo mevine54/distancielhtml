@@ -1,0 +1,41 @@
+body {
+    background-color: #5c94fc;
+}
+
+.container {
+    border: 2px solid black;
+    width: 40vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#couleur1 {
+    background-color: #4976c9;
+    border-right: 2px solid black;
+    width: 10vw;
+    height: 15vh;
+}
+
+#couleur2 {
+    background-color: #375897;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: 20vw;
+    height: 15vh;
+}
+
+#couleur3 {
+    background-color: #243b64;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: 30vw;
+    height: 15vh;
+}
+
+#couleur4 {
+    background-color: #121d32;
+    border-top: 2px solid black;
+    width: 40vw;
+    height: 15vh;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Paiement en ligne
+    </h1>
+    <h2>
+        1 / Identité
+    </h2>
+
+    <fieldset>
+        <label for="firstname">Prénom :</label>
+        <input type="text" name="firstname" id="prenom">
+        <br>
+        <br>
+        <label for="name">Nom :</label>&emsp;
+        <input type="text" name="name" id="nom">
+        <br>
+        <br>
+        <label for="email">Email :</label>&ensp;
+        <input type="text" name="email" id="email">
+    </fieldset>
+    <h2>
+        2 / Adresse
+    </h2>
+    <fieldset>
+        <label for="adress">Adresse :</label>
+        <input type="text" name="adress" id="adresse">
+        <br>
+        <br>
+        <label for="zipcode">Code postal :</label>
+        <input type="text" name="zipcode" id="codepostal">
+        <br>
+        <br>
+        <label for="city">Ville :</label>
+        <input type="text" name="city" id="ville">
+    </fieldset>
+    <h2>
+        3 / Informations de paiement
+    </h2>
+    <fieldset>
+        <label for="paymentType">Type de paiement :</label>
+        <input type="radio" name="paymentType" id="bitcoin">
+        <img src="img/html-bitcoin.png" alt="imageBitcoin">
+        <label for="bitcoin">Bitcoin</label>
+        <input type="radio" name="paymentType" id="mastercard">
+        <img src="img/html-mastercard.png" alt="imageMastercard">
+        <label for="mastercard">Mastercard</label>
+        <input type="radio" name="paymentType" id="visa">
+        <img src="img/html-visa.png" alt="imageVisa">
+        <label for="visa">Visa</label>
+        <br>
+        <br>
+        <label for="cardnumber">Numéro de la carte bancaire :</label> 
+        <input type="number" name="cardnumber" id="cardnumber">
+        <br>
+        <br>
+        <label for="cardholder">Nom du porteur de la carte bancaire :</label>
+        <input type="number" name="cardholder" id="cardholder">
+        <br>
+        <br>
+        <label for="securitycode">Code de sécurité :</label>
+        <input type="number" name="securitycode" id="securitycode">
+    </fieldset>
+    <h2>
+        4 / Confirmation
+    </h2>
+    <fieldset>
+        <input type="checkbox" name="cgv" id="cgv">
+        <label for="cgv">J'accepte les <a href="#">CGV</a></label>
+        <br>
+        <br>
+        <button type="submit">Envoyer</button>
+    </fieldset>
+</body>
+</html>

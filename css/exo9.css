@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: monospace;
+}
+
+.titre {
+    font-size: 36px;
+    color: #008CBA;
+    border-bottom: 2px solid gray;
+    padding-bottom: 35px;
+}
+
+.datetitre {
+    font-size: 14px;
+    color: black;
+}
+
+#bleu {
+    background-color: #008CBA;
+    font-size: 18px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+#vert {
+    background-color: #4CAF50;
+    font-size: 18px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+
+}
+
+#noire {
+    background-color: #555555;
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+#botborder {
+    border-bottom: 2px solid gray;
+    padding-bottom: 25px;
+}
+
+.tableau {
+    padding-top: 10px;
+}
+
+
+#table {
+    border: 1px solid gray;
+}
+
+#rang {
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+#un {
+    border: 1px solid gray;
+}
+#jdg {
+    padding: 5px;
+}
+
+#nom {
+    width: 190px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+#lien {
+    width: 250px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+#jdgborder {
+    border: 1px solid gray;
+}
+
+#liencell1 {
+    border: 1px solid gray;
+}
+
+#deux {
+    border: 1px solid gray;
+}
+
+#zeratorborder {
+    border: 1px solid gray;
+}
+
+#zerator {
+    padding: 5px;
+}
+
+#liencell2 {
+    border: 1px solid gray;
+}
+
+#trois {
+    border: 1px solid gray;
+}
+
+#presseaborder {
+    border: 1px solid gray;
+}
+
+#pressea {
+    padding: 5px;
+}
+
+#liencell3 {
+    border: 1px solid gray;
+}
+
+#cellfusionne {
+    border: 1px solid gray;
+    background-color: lightgray;
+    width: 290px;
+    text-align: center;
+}
