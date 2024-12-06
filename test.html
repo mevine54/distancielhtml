@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Box</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #add8e6; /* Light blue background */
+        }
+        .container {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            background-color: #add8e6; /* Light blue background */
+            border: 2px solid black;
+        }
+        .box {
+            position: absolute;
+        }
+        .box1 {
+            width: 100%;
+            height: 25%;
+            background-color: #2f4f4f; 
+            border-right: black;
+            bottom: 0;
+        }
+        .box2 {
+            width: 75%;
+            height: 25%;
+            background-color: #4682b4;
+            border-top: black;
+            border-right: black;
+            bottom: 25%;
+        }
+        .box3 {
+            width: 50%;
+            height: 25%;
+            background-color: #87ceeb;
+            border-right: black;
+            bottom: 50%;
+        }
+        .box4 {
+            width: 25%;
+            height: 25%;
+            background-color: #b0e0e6; /* Powder blue */
+            bottom: 75%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
