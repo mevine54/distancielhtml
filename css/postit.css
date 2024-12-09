@@ -1,0 +1,15 @@
+#postIt {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    visibility: hidden;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.interactive-text {
+    cursor: pointer;
+}
