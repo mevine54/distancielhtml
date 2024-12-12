@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="postIt"></div>
+
+    <button onclick="affichePostit('Vous avez cliqué sur le bouton \\\'Affiche\\\' !')">Affiche</button>
+    <button onclick="cachePostit()">Cache</button>
+
+    <p onmouseover="affichePostit('C’est gentil de me survoler...')" onmouseout="cachePostit()">
+        Merci de bien vouloir me survoler
+    </p>
+
+    <script src="js/postit1.js"></script>
+</body>
+
+</html>

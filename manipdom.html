@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <input type="radio" name="choix" value="semaine" id="semaine">
+        <label for="semaine">Semaine</label>
+    </p>
+    <p>
+        <input type="radio" name="choix" value="week-end" id="weekend">
+        <label for="weekend">Week-end</label>
+    </p>
+
+    <p>
+        <button type="button" onclick="copierSelection()">Choix</button>
+    </p>
+
+    <p>
+        <input type="text" id="resultat" placeholder="Votre choix s'affichera ici...">
+    </p>
+
+    <script src="js/manipdom.js"></script>
+</body>
+</html>

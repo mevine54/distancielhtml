@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="http://www.afpa.fr" method="get">
+        <label for="champTexte">Saisissez un texte :</label>
+        <br>
+        <input type="text" id="champTexte" name="champTexte"> -->
+
+        <!-- Méthode 1 : Attribut HTML onclick -->
+        <!-- Pour tester cette méthode, décommentez ci-dessous et commentez les autres méthodes dans le JS -->
+        <!-- <button id="btnValider" type="submit" onclick="return verifierSaisie()">Valider</button>
+    </form> -->
+
+    
+    <!-- variantes -->
+
+    <form id="formEmail" action="http://www.afpa.fr" method="get">
+        <label for="email">Veuillez saisir une adresse email :</label>
+        <!-- required pour gestion de saisie obligatoire côté navigateur -->
+        <input type="text" id="email" name="email" required>
+
+        <span id="erreurEmail" class="error"></span>
+
+        <button id="btnValider" type="submit">Valider</button>
+    </form>
+
+    <script src="js/controle.js"></script>
+</body>
+</html>

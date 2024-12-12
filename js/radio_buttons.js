@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boutonChoix.addEventListener('click', copierTexte);
 });
 
-function copierTexte() {
+/* function copierTexte() {
     var radioButtons = document.getElementsByName('choix');
     var champTexte = document.getElementById('champTexte');
 
@@ -28,4 +28,4 @@ function copierTexte() {
             break;
         }
     }
-}
+} */
